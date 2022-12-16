@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
-import { Box } from '@mui/material/Box'
+import Box from '@mui/material/Box'
 import Tabs, { tabsClasses } from "@mui/material/Tabs"
 import Tab from "@mui/material/Tab"
 import Button from "@mui/material/Button"
-import { Container } from '@mui/material/Container'
+import Container  from '@mui/material/Container'
 
 import { FaFilter } from 'react-icons/fa'
 import { locationsTab } from 'data/mock-data'

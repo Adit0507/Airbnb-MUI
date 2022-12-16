@@ -1,9 +1,13 @@
-// import Box from '@mui/material/Box';
+import Box from '@mui/material/Box';
 import Header from 'components/Header';
+import OptionsTab from 'components/OptionsTab';
 
 function App() {
   return (
-      <Header />
+      <Box>
+        <Header />
+        <OptionsTab />
+      </Box>
     );
 }
 
